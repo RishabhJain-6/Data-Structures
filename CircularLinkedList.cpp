@@ -214,7 +214,7 @@ void display()
         cout<<temp->data<<"->";
         temp = temp->next;
     }
-    cout<<"NULL"<<endl;
+    cout<<head->data<<endl;
 }
 
 int main()
