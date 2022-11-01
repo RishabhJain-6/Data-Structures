@@ -209,7 +209,7 @@ void display()
     Cnode* temp = head;
     cout<<temp->data<<"->";
     temp=temp->next;
-    while(temp->data!=head->data)
+    while(temp!=head)
     {
         cout<<temp->data<<"->";
         temp = temp->next;
