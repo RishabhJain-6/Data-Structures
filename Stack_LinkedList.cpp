@@ -21,7 +21,7 @@ int size = 0;
 
 void push(int num)
 {
-    if (size+1==MAX)
+    if (size==MAX)
     {
         cout<<"Stack Overflow"<<endl;
         return;
