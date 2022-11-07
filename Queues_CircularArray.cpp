@@ -109,7 +109,7 @@ int main()
     char ch = 'y';
     while (ch=='y'||ch=='Y')
     {
-        cout<<"Available operations on given stack(build with array)"<<endl;
+        cout<<"Available operations on given queue(build with circular array)"<<endl;
         cout<<"1.\tEnqueue"<<endl;
         cout<<"2.\tDequeue"<<endl;
         cout<<"3.\tFront of Queue"<<endl;
@@ -123,7 +123,7 @@ int main()
             {
                 int num;
                 cout<<endl;
-                cout<<"Enter value to push into the stack: ";
+                cout<<"Enter value : ";
                 cin>>num;
                 q.enQueue(num);
                 break;
