@@ -36,7 +36,7 @@ void insertion_Back(int val)
     if (head == NULL)
     {
         head=tail=ob;
-        ob->next = head;;
+        ob->next = head;
     }
     else
     {
